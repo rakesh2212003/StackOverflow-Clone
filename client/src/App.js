@@ -7,7 +7,6 @@ import Navbar from './components/Navbar/Navbar'
 import AllRoutes from './AllRoutes'
 import { fetchAllQuestions } from './actions/question.js'
 import { fetchAllUsers } from './actions/users.js'
-import Chat from './components/Chat/Chat';
 
 function App() {
 
@@ -21,7 +20,6 @@ function App() {
 	return (
 		<div className="App">
 			<Router >
-				<Chat />
 				<Navbar />
 				<AllRoutes />
 			</Router >
